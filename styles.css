@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #faf5ff;
+  color: #2d0036;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: #8000ff;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  position: relative;
+}
+
+header .btn {
+  background: yellow;
+  padding: 10px 20px;
+  color: #2d0036;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.intro {
+  background: #f3e6ff;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #8000ff;
+  margin-bottom: 15px;
+}
+
+.projects h2 {
+  color: #8000ff;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid #a64dff;
+  object-fit: cover;
+}
+
+.contact {
+  background: #f5e6ff;
+  margin-top: 40px;
+  padding: 30px;
+text-align: center;
+  border-top: 4px solid #8000ff;
+}
+
+footer {
+  background: #2d0036;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.fixed-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #8000ff;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
